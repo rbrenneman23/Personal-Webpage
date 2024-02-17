@@ -1,0 +1,14 @@
+body {
+    font-family: 'Caveat', cursive;
+}
+
+nav {
+    background-color: orangered;
+    padding: 20px;
+
+    text-align: center;
+}
+
+button {
+    margin: 0px 20px 0px 20px;
+}

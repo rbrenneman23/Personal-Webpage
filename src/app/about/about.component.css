@@ -1,0 +1,30 @@
+body {
+    font-family: 'Caveat', cursive;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+
+div {
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
