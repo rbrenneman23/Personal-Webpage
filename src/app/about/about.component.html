@@ -1,13 +1,6 @@
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat
-    :wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,
-    400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&
-    display=swap" rel="stylesheet">
-</head>
-
 <body>
     <h2>About</h2>
-    <div>
+    <div class="about">
         <p>
             I am a web development student from southeast Indiana, and I want to make
             a difference in the lives of others around me. I enjoy spending time with
@@ -17,13 +10,25 @@
 
         </p>
         <br>
-        <h3>Technology Experience</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>C#</li>
-            <li>Angular</li>
-        </ul>
+
+        <div class="expand">
+            <mat-accordion>
+                <mat-expansion-panel hideToggle>
+                    <mat-expansion-panel-header>
+                        <mat-panel-description fxLayoutAlign="center">
+                            Technology Experience
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C#</li>
+                        <li>Angular</li>
+                    </ul>
+                </mat-expansion-panel>
+                <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
     </div>
-</body>

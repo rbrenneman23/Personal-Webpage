@@ -18,7 +18,7 @@ export class JobService {
       title: "Personal Banker",
       description: "As a banker, I was responsible for assisting customers with a wide range of things, from making deposits and withdrawals, to opening accounts and loan applications. I also answered phone calls from customers, and assisted them with the needs that they had.",
       duration: "1 year",
-      employer: "Northwest"
+      employer: "Northwest Bank"
     },
     {
       id: 3,

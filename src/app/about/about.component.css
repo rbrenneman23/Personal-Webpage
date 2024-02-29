@@ -1,7 +1,3 @@
-body {
-    font-family: 'Caveat', cursive;
-}
-
 h2 {
     text-align: center;
     padding: 10px;
@@ -21,10 +17,14 @@ ul {
     margin: auto;
 }
 
-div {
+.about {
     border: 5px solid black;
     border-radius: 15px;
     padding: 50px;
     margin-left: 250px;
     margin-right: 250px;
+}
+
+.expand {
+    text-align: center;
 }
